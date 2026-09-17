@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F6F8;
+}
+
+
+/* PAGINA PRINCIPAL */
+
+.pagina {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+}
+
+
+/* ENCABEZADO */
+
+.encabezado {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 6px solid #315A7D;
+    margin-bottom: 10px;
+}
+
+.foto {
+    width: 180px;
+}
+
+.foto img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.datos {
+    width: 330px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.escuela {
+    width: 250px;
+    text-align: right;
+    font-size: 13px;
+}
+
+
+/* TITULO PRINCIPAL */
+
+.titulo {
+    background-color: #5B8DB8;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px;
+    text-transform: uppercase;
+    
+}
+
+
+/* CONTENIDO */
+
+.contenido {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* COLUMNA IZQUIERDA */
+
+.columna-izquierda {
+    width: 70%;
+    padding: 10px;
+     border: 2px dashed #315A7D;
+     margin-right: 5px;
+}
+.marcado {
+    background-color: #e0e0e0;
+    padding: 3px 6px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break : clone;
+}
+
+/* COLUMNA DERECHA */
+
+.columna-derecha {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #315A7D;
+}
+
+
+/* TITULOS PRINCIPALES */
+
+h2 {
+    color: #684A7C;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+/* TITULOS DE LA COLUMNA DERECHA */
+
+h3 {
+    color: #315A7D;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* PARRAFOS */
+
+p {
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.rojito {
+
+    color: #e52535;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+/* LISTAS */
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.columna-izquierda li {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.columna-derecha li {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+/* IMAGENES DE INFRAESTRUCTURA */
+
+.columna-derecha .apartado img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/* PIE DE PAGINA */
+
+.pie {
+    height: 70px;
+    background-color: #5B8DB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.pie img {
+    height: 50px;
+    width: auto;
+}
